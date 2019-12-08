@@ -35,7 +35,8 @@ scripts can be found in `nfl-stats-react/miscellaneous/database/init.sql`
 ### Build the ReactJS application
 To build the React application follow the following steps:
 - open a terminal
-- naviage to `nfl-stats-react/src/webapp`
+- navigate to `nfl-stats-react/src/webapp`
+- install react dependencies with this command `yarn install` (you only have to do this once)
 - run the following command `yarn build`
 
 ### Build the spring boot application
