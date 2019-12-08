@@ -7,6 +7,8 @@ application will gather game center data from the nfl api and use it to help wit
 
 ## Version 0.0.1
 This is the initial version with all of the three main pieces (Spring Boot, ReactJS & Postgresql) working together.
+Not much functionality yet just the initial shell of the application.  The database tables have been defined and
+the basic user interface layout has been defined.
 
 ## Technologies
 - Spring Boot - `v2.2.2-RELEASE`
@@ -27,13 +29,25 @@ replace the `<password>` with your own:
 `docker run --name nflstats -e POSTGRES_PASSWORD=<password> -d -p 5432:5432 postgres`
 
 ### Initialize the database
-Next you will need to setup the database and initialize the tables.
+Next you will need to setup the database and initialize the tables.  I do this from IntelliJ and the database init
+scripts can be found in `nfl-stats-react/miscellaneous/database/init.sql`
 
 ### Build the ReactJS application
+To build the React application follow the following steps:
+- open a terminal
+- naviage to `nfl-stats-react/src/webapp`
+- run the following command `yarn build`
 
 ### Build the spring boot application
+Next build the Spring Boot application with these steps:
+- open a terminal
+- navigate to `nfl-stats-react/`
+- run the following command `./gradlew clean build`
 
 ### Start the application
+Once the application is built you can run it with the following command:
+- In the terminal from the same location you ran the build from
+- run the following command `./gradlew boot-run`
+- navigate to the [application](http://localhost:8080)
 
-
-
+**NOTE:** You can also build and run the application from IntelliJ
