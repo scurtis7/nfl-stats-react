@@ -4,8 +4,8 @@ plugins {
 	id 'java'
 }
 
-group = 'com.scurtis'
-version = '0.0.1-SNAPSHOT'
+group = 'com.scurtis.nflstats'
+version = '0.0.1'
 sourceCompatibility = '1.8'
 
 configurations {
