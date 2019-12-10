@@ -7,7 +7,7 @@ application will gather game center data from the nfl api and use it to help wit
 
 ## Version 0.0.2
 Add Team Entity and Team Repository to represent the team data in the database.  Add a Rest endpoint to provide 
-access to all the teams in the database.  And finally added code to display the teams as JSON in the UI.
+a list of all teams in the database.  And finally added code to display the teams as JSON in the UI.
 
 ## Version 0.0.1
 This is the initial version with all of the three main pieces (Spring Boot, ReactJS & Postgresql) working together.
