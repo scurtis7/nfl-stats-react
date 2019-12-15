@@ -1,0 +1,38 @@
+.Home-background {
+    background-color: #282c34;
+    margin: 0;
+}
+
+.column-menu {
+    alignment: left;
+}
+
+.navitem-vert {
+    padding: 10px 0;
+}
+
+.navlink-vert {
+    color: #6c757d;
+    padding: 10px;
+}
+
+.navlink-vert:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.navlink-vert:active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.navlink-vert-active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+
