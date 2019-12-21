@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./App.css"
 import Home from "./Home";
 import Teams from "./Teams";
 import Players from "./Players";
@@ -27,7 +28,7 @@ class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div>
+                <div className="App">
                     <Navbar color="dark" dark expand="md">
                         <NavbarBrand tag={Link} exact="true" to="/">NFL Stats</NavbarBrand>
                         <NavbarToggler onClick={this.toggle}/>

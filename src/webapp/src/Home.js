@@ -15,7 +15,7 @@ class Home extends Component {
                 <Container fluid>
                     <Row>
                         <Col xs="2">
-                            <div className="Home-background">
+                            <div className="Home">
                                 <Nav vertical>
                                     <NavItem className="navitem-vert"><NavLink className="navlink-vert" activeClassName="navlink-vert-active" to="/subpage1">Sub Page 1</NavLink></NavItem>
                                     <NavItem className="navitem-vert"><NavLink className="navlink-vert" activeClassName="navlink-vert-active" to="/subpage2">Sub Page 2</NavLink></NavItem>
