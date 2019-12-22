@@ -16,22 +16,23 @@ code {
 .navlink {
     color: #6c757d;
     padding: 10px;
+    margin: 10px;
 }
 
 .navlink:hover {
-    background-color: #008AB8;
+    background-color: #282c34;
     color: white;
     text-decoration: none;
 }
 
 .navlink:active {
-    background-color: #008AB8;
+    background-color: #282c34;
     color: white;
     text-decoration: none;
 }
 
 .navlinkactive {
-    background-color: #008AB8;
+    background-color: #282c34;
     color: white;
     text-decoration: none;
 }

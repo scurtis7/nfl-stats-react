@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import "./App.css"
-import Home from "./Home";
-import Teams from "./Teams";
-import Players from "./Players";
-import Games from "./Games";
-import Rankings from "./Rankings";
-import DataLoad from "./DataLoad";
-import About from "./About";
-import SignIn from "./SignIn";
+import Home from "./home/Home";
+import Teams from "./team/Teams";
+import Players from "./player/Players";
+import Games from "./games/Games";
+import Rankings from "./ranking/Rankings";
+import DataLoad from "./dataload/DataLoad";
+import About from "./about/About";
+import SignIn from "./signin/SignIn";
 import {BrowserRouter, Route, NavLink, Link} from "react-router-dom";
 import {Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem} from "reactstrap";
 
